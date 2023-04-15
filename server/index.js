@@ -26,7 +26,7 @@ const startServer = async () => {
       // connect to database
       connectDB(process.env.MONGODB_URL)
 
-      app.listen(8080, () => console.log("Server on port: http://localhost:8080"))
+      app.listen(8080, () => console.log("Server on port: http://localhost:8080 and https://refine-real-estate.onrender.com"))
    } catch (error) {
       console.log(error)
    }
